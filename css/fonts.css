@@ -1,0 +1,17 @@
+/* font-face */
+@font-face {
+    font-family: Roboto;
+    src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Dancing;
+    src: url(/fonts/Dancing/static/DancingScript-Bold.ttf);
+}
+@font-face {
+    font-family: Sacramento;
+    src: url(/fonts/Sacramento/Sacramento-Regular.ttf);
+}
+@font-face {
+    font-family: Allura;
+    src: url(/fonts/Allura/Allura-Regular.ttf);
+}

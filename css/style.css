@@ -1,0 +1,165 @@
+/* import fonts */
+@import url(./fonts.css);
+html,body{
+    font-family: Roboto, sans-serif;
+    scroll-behavior:smooth;
+}
+
+.navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+.navbar{
+    padding: 1rem 20rem;
+}
+.navbar-nav .nav-link{
+    font-weight: 500;
+    padding: 0.2rem;
+}
+.navbar .navbar-brand img{
+    width: 100%;
+    height: auto;
+    min-width: 50px;
+}
+
+/* Heading */
+.heading-name h1{
+    font-family: Dancing;
+    padding-bottom: 20px;
+}
+
+/* About */
+.main .aboutme-title{
+ font-size: 50px;
+ padding-bottom: 15px;
+}
+
+.main .about-area{
+    padding: 4rem 0;
+}
+
+.main .about-area h2 span{
+    display: block;
+    font: normal;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+.main .about-area .paragraph p{
+    padding: -.2rem 0;
+}
+p.para{
+    font-size: 15px;
+}
+
+/* Skills */
+.main .skills-area{
+    padding: 4rem 0;
+}
+.main .skills-title{
+    padding: 0 3rem;
+}
+.main .skills-title h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.main .skills-area .skills{
+    padding-top: 1.5rem 0;
+    width: 14rem;
+    margin: 5rem .5rem;
+    transition: .7s ease;
+}
+.main .skills-area .skills:hover{
+    box-shadow: 0px 8px 40px rgba(57, 56, 61, 0.205);
+}
+
+/* Portfolio */
+.main .project-area{
+    padding: 4rem 0;
+}
+.main .project-area .btn-group button{
+    border: none;
+    font-size: 16px;
+    text-align: center;
+}
+.main .project-area .btn-group button + button{
+padding: 0 2rem;
+}
+.main .project-area .grid .our-project > .title h4{
+    font-size: 20px;
+    line-height: 8px;
+}
+.main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+.main .project-title h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+/* Resume */
+.main .resume-title{
+    font-size: 50px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+   
+.main .resume-area{
+    padding: 4rem 0;
+}
+.main .resume-area .sub-title{
+    font-size: 25px;
+}
+
+/* Contact */
+.main .contact-title{
+    font-size: 50px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+.main .contact-area{
+    padding: 4rem 0;
+}
+
+
+/* Businesscard */
+.main .card-title{
+    font-size: 50px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+.main .card-area{
+    padding: 4rem 0;
+}
+.main .card-area img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+/* Footer */
+footer.footer-area{
+    padding: 3rem 0;
+    color: white;
+}
+footer.footer-area .social h5{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 30px;
+    font-family: Dancing;
+}
+footer.footer-area .social a>i{
+    font-size: 22px;
+    padding: 2rem;
+    color: white;
+}
+footer.footer-area .social a:hover > i{
+    color: #BF953F;
+}
+hr{
+    height: 1px;
+    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+        border: none;
+}
+
+
+
+
