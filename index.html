@@ -22,7 +22,7 @@
 <body>
     <!-- Nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#"><img src="./img/Conradt-van-Heerden-logo-white.png" alt=""></a>
+        <a class="navbar-brand mr-auto" href="#"><img src="./img/Conradt-van-Heerden-logo-white.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#expand"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -87,8 +87,10 @@
                                     at 1.5-2x the speed when you get a gap.
                                 </p>
                             </div>
-                            <a href="./img/Conradt_van_Heerden_CV.pdf" class="btn btn-outline-dark text-uppercase"
-                                download>Download CV</a>
+                            <a class="c-button c-button--gold" href="./img/Conradt_van_Heerden_CV.pdf" download>
+                                <div class="c-ripple js-ripple"><span class="c-ripple__circle"></span></div>
+                                Download CV
+                              </a>
                         </div>
                     </div>
                 </div>
@@ -410,10 +412,10 @@
                                 <!--Grid row-->
 
                             </form>
-
+                            <!-- onclick="document.getElementById('contact-form').submit();" -->
                             <div class="text-center text-md-left">
-                                <a class="btn btn-outline-dark btn-send"
-                                    onclick="document.getElementById('contact-form').submit();">Send</a>
+                                <a class="c-button c-button--gold btn-send"
+                                    ><div class="c-ripple js-ripple"><span class="c-ripple__circle"></span></div>Send</a>
                             </div>
                             <div class="status"></div>
                         </div>
@@ -461,10 +463,12 @@
             <div class="container card-area" id="businesscard">
                 <h2 class="display-4 card-title">My Card<span style="color: #BF953F">.</span></h2>
                 <div class="container">
-                    <div class="row-grid">
+                    <div class="row">
                         <div class="col">
                             <img src="./img/front.png" alt="">
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col">
                             <img src="./img/back.png" alt="">
                         </div>
@@ -502,6 +506,7 @@
 
 
 
+
     <!-- Jquey -->
     <script src="./js/jquery.3.6.0.js"></script>
     <!--Bootstrap js  -->
@@ -512,6 +517,8 @@
     <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
     <!-- custom js -->
     <script src="./js/main.js"></script>
+    <!-- Button Ripple effect -->
+    <script src="./js/ripple.js"></script>
 </body>
 
 </html>
