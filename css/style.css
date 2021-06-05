@@ -7,6 +7,12 @@ body {
     scroll-behavior: smooth;
 }
 
+::selection {
+    background: rgba(191, 149, 63, 0.35);
+    border-radius: 10%;
+    text-shadow: 2px 1px 1px #a19f9a, 3px 2px 1px #a19f9a, 2px 3px 1px #a19f9a;
+}
+
 /* Navbar */
 .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
@@ -25,6 +31,49 @@ body {
     width: 100%;
     height: auto;
     min-width: 50px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#scrollPath {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+}
+
+#progressbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: #343a40;
+}
+
+#progressbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #343a40;
+    filter: blur(8px);
+}
+
+
+#progressbar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #343a40;
 }
 
 /* Heading */
