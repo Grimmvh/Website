@@ -3,7 +3,7 @@
 
 html,
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -90,6 +90,10 @@ body {
 
 .main .about-area {
     padding: 4rem 0;
+}
+
+.main .about-area h1 {
+    font-weight: 300;
 }
 
 .main .about-area h2 span {
